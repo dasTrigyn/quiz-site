@@ -32,10 +32,10 @@ input{
     display: flex;
     height: calc(100% - 64px);
     justify-content: center;
-    width: 60%;
+    width: 40%;
     height: auto;
-    margin-top: 3%;
-    margin-left: 20%;
+    margin-top: 1%;
+    margin-left: 30%;
 
     border-radius: 38px;
     background: #ffffff;
@@ -85,4 +85,53 @@ input{
 mat-card{
   outline: auto;
   outline-color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li.rt {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+    float: left;
+  color: #6a1b9a;
+  // background-color: #6a1b9a;
+  border-radius: 5px;
+  width: 200px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+mat-card-content{
+  margin-bottom: 0px !important;
+}
+h1.cursive{
+  color: #3a94b7;
+  font-family: "Rouge Script", cursive;
+  font-size: 43px;
+  font-weight: normal;
+  line-height: 33px;
+  margin: 0 0 20px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #040606;
 }
